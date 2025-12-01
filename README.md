@@ -22,6 +22,7 @@ Transmitter (Phone A):
 - Encrypt: Apply selected method (Scramble / Mask / Watermark) using Key-based Seed.
 - Pack: Quantize Audio to int16, serialize with single-precision Motion data.
 - Transmit: Send 8844-byte packets via TCP/IP.
+
 Receiver (Phone B):
 - Receive: Capture & Unpack byte stream.
 - Restore: Convert int16 audio back to double & Apply FFT.
